@@ -1,0 +1,167 @@
+* {
+	margin:0;
+	padding:0;
+	font-family: tahoma;
+	text-transform: uppercase;
+}
+
+.all {
+	margin: auto;
+	position: relative;
+	font-size:0;
+	min-width: 800px;
+	max-width: 800px;
+}
+
+.header {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px 0 0 0;
+}
+
+.slider {
+	position: relative;
+	max-width:800px;
+	width:100%;
+	margin: 0 auto;
+	border-top:none;
+}
+
+.block {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	width:150px;
+	min-height: 330px;
+		padding: 5px;
+	border-top: 1px solid gray;	
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	margin-top:25px;
+}
+
+.line1 {
+    border-left: 1px solid gray;
+    height: 431px;
+    position: absolute;
+    top: 69px;
+    left: 0px;
+}
+
+.line2 {
+    border-left: 1px solid gray;
+    height: 431px;
+    position: absolute;
+    top: 69px;
+    right: 0px;
+}
+.block_content {
+	padding: 10px;
+}
+
+.block_head, .block_name, .block_price, .block_content {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.block_head, .block_name, .block_price {
+	padding:10px 0;
+	font-size: 16px;
+}
+
+.block_head {
+	padding:30px 0;
+	border-bottom:1px solid gray;
+	color:gray;
+}
+
+.slick-prev::before , .slick-next::before {
+	color:gray;
+	font-size: 30px;
+	opacity: 1;
+}
+
+.slick-prev, .slick-next {
+	top:17%;
+	width:40px;
+}
+
+
+.block_img img {
+	margin: 10px auto 20px;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+button {
+	margin-top:20px;
+	margin-bottom: 10px;
+	width: 130px;
+	height: 35px;
+	font-size: 12px;
+	background: yellow;
+	border: none;
+	font-weight: bold;
+}
+
+.soon_on_sale {
+	background: #CC3399;
+	color:white;
+}
+
+.add_to_kart {
+	background: #F0E524;
+}
+
+.block_name {
+	color:blue;
+}
+
+.block_price {
+	height: 15px;
+	font-weight: bold;
+}
+
+.old_price {
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration:  line-through;
+}
+
+.circle {
+	position: absolute;
+	top:-30px;
+	right:5px;
+	width: 57px;
+	height: 57px;
+	border-radius: 37px;
+	border: 5px solid white;
+	background: black;
+	color:white;
+	font-size: 12px;
+	text-align: center;
+	padding: 0;
+}
+
+.blue {
+	background: #009DE1;
+}
+
+.blue p {
+	margin-top: 10px;
+	line-height: 15px;
+}
+
+.green {
+	background: #86B022;
+}
+
+.green p {
+	line-height: 55px;
+}
+
+span {
+	font-size: 10pt;
+}
